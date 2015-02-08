@@ -22,11 +22,11 @@
 ##########################################################################
 
 
-boxdot <- function(x,y, boxhalfwidth=0.4, pch=1, ...)
+boxdot <- function(x,y, boxhalfwidth=0.4, pch=1, ylim=range(y,na.rm=TRUE), ...)
 {
     # First make the boxplot; do not include outliers.
      ff <- as.formula("y ~ x")
-     loc.bp <- boxplot(ff, outline=FALSE, border="grey", ...)
+     loc.bp <- boxplot(ff, outline=FALSE, border="grey", ylim=ylim, ...)
 
     # Now include overlaid data points for each box
      unique.x <- sort(unique(x))
