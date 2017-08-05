@@ -6,7 +6,7 @@ Its purpose is to overlay the data points on a boxplot in a systematic manner, a
 The data points for each box are arranged in sorted order, so that they resemble an empirical distribution function on its side.
 
 I was first introduced to this type of plot by Dan Holder, who calls it a boxdot plot.  
-I am grateful to David Shera for the background information on this type of plot, and sharing R code that inspired this function.
+I am grateful to David Shera for the background information on this type of plot, and sharing R code that inspired this function, and suggestions to improve it.
 
 References:
 
