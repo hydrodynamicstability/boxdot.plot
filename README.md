@@ -1,5 +1,5 @@
 # boxdot.plot
-Boxdot plot function
+Boxdot plot functions
 
 The boxdot plot is a variation on Tukey's box-and-whisker plot, and Parzen's quantile boxplot.  
 Its purpose is to overlay the data points on a boxplot in a systematic manner, as opposed to jittering.
@@ -7,6 +7,12 @@ The data points for each box are arranged in sorted order, so that they resemble
 
 I was first introduced to this type of plot by Dan Holder, who calls it a boxdot plot.  
 I am grateful to David Shera for the background information on this type of plot, and sharing R code that inspired this function, and suggestions to improve it.
+
+Functions posted:
+boxdot.r    This is my simple version of the boxdot plot function.
+boxquant.s  This is David Shera's version of the function.
+lighten.s   This is David Shera's function that is called by boxquant.s
+
 
 References:
 
