@@ -9,8 +9,11 @@ I was first introduced to this type of plot by Dan Holder, who calls it a boxdot
 I am grateful to David Shera for the background information on this type of plot, and sharing R code that inspired this function, and suggestions to improve it.
 
 Functions posted:
+
 boxdot.r    This is my simple version of the boxdot plot function.
+
 boxquant.s  This is David Shera's version of the function.
+
 lighten.s   This is David Shera's function that is called by boxquant.s
 
 
